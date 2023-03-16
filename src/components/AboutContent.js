@@ -4,7 +4,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import ProfilePic from "../assets/mypic.jpeg";
 import ProfileBack from "../assets/codepic.jpeg";
-import { FaFile, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaFilePdf, FaGithub, FaLinkedin } from "react-icons/fa";
 
 const AboutContent = () => {
   return (
@@ -15,7 +15,8 @@ const AboutContent = () => {
           I'm a developer and graphic designer, with apprenticeships and
           bootcamps spanning 3 years of design and development experience. I am
           seeking a position to expand my development skills while building
-          communities.
+          communities. My goal is to ultimately gain experience in order to
+          bring my ideas to life and more.
         </p>
         <h3>My skills include:</h3>
         <ul>
@@ -27,6 +28,9 @@ const AboutContent = () => {
           <li>Webflow</li>
           <li>Wordpress</li>
           <li>Adobe Illustrator</li>
+          <li>Adobe Photoshop</li>
+          <li>Adobe Premiere Pro</li>
+          <li>Angular</li>
         </ul>
         <br />
         <Link to="/project">
@@ -54,7 +58,10 @@ const AboutContent = () => {
             />
           </a>
           <a target="blank" href="/Resume.pdf">
-            <FaFile size={30} style={{ color: "#fff", marginRight: "1rem" }} />
+            <FaFilePdf
+              size={30}
+              style={{ color: "#fff", marginRight: "1rem" }}
+            />
           </a>
         </div>
       </div>

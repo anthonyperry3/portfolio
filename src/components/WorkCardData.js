@@ -1,6 +1,8 @@
 import pro1 from "../assets/bg.png";
 import pro2 from "../assets/loginReg.png";
 import pro3 from "../assets/jsClock.png";
+import pro4 from "../assets/color-randomizer.png";
+import pro5 from "../assets/digital.png";
 
 const ProjectCardData = [
   {
@@ -24,6 +26,20 @@ const ProjectCardData = [
     text: "Created a standard clock using HTML, CSS, and Javascript.",
     view: "https://anthonyperry3.github.io/analog-clock/",
     source: "https://github.com/anthonyperry3/analog-clock",
+  },
+  {
+    imgsrc: pro4,
+    title: "Color Randomizer",
+    text: "Created a color randomizer using React.",
+    view: "https://anthonyperry3.github.io/react-color-randomizer/",
+    source: "https://github.com/anthonyperry3/react-color-randomizer",
+  },
+  {
+    imgsrc: pro5,
+    title: "Analog Clock",
+    text: "Created a digital clock using HTML, CSS, and Javascript in React.",
+    view: "https://anthonyperry3.github.io/react-clock/",
+    source: "https://github.com/anthonyperry3/react-clock",
   },
 ];
 
