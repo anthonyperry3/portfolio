@@ -1,14 +1,9 @@
 import { useRef } from "react";
-import ReCAPTCHA from "react-google-recaptcha";
 import emailjs from "@emailjs/browser";
 
 import "./FormStyles.css";
 
-import React from "react";
-
 const Form = () => {
-  const onChange = () => {};
-
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -46,10 +41,6 @@ const Form = () => {
           rows="6"
           placeholder="Type Your Message Here"
           name="message"
-        />
-        <ReCAPTCHA
-          sitekey="6LfmQgklAAAAAF1CSI6jQjy81RfXqpXCEz6bNsab"
-          onChange={onChange}
         />
         <input className="btn" type="submit" value="Send"></input>
       </form>
